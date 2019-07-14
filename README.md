@@ -1,10 +1,12 @@
 创建一个github项目仓库之后，要将本地文件上传到github的操作方法：    
 （此处用的是macbook）  
 打开终端进入项目文件夹Test  
-cd Test  
+> cd Test  
 
 创建说明文件  
+```shell
 echo "# test" >> README.md  
+```
 
 初始化，此命令会在当前目录下创建一个.git  
 git init
